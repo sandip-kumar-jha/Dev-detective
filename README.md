@@ -8,7 +8,7 @@ A modern GitHub Profile Finder built using **HTML, CSS, and Vanilla JavaScript**
 
 ## 🚀 Live Demo
 
-**Live Website:** papaya-lily-a7a817.netlify.app
+**Live Website:** https://papaya-lily-a7a817.netlify.app/
 
 **GitHub Repository:** https://github.com/sandip-kumar-jha/Dev-detective
 
@@ -95,6 +95,7 @@ The user with the higher total stars is declared the Winner.
 ---
 
 ## 📸 Screenshots
+![Uploading image.png…]()
 
 
 Example:
