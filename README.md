@@ -95,7 +95,8 @@ The user with the higher total stars is declared the Winner.
 ---
 
 ## 📸 Screenshots
-![Uploading Screenshot 2026-07-04 092737.png…]()
+<img width="1908" height="872" alt="Screenshot 2026-07-04 092737" src="https://github.com/user-attachments/assets/ddb64032-46c0-4bfc-9974-9e42d94d496b" />
+
 
 
 
