@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Dev Detective</title>
+
+
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <h1 class="logo">
+                Dev Detective
+            </h1>
+
+            <button id="themeBtn">
+
+                <span id="themeText">
+                    DARK
+                </span>
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+        </header>
+
+        <div class="search-section">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search GitHub Username..." />
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+        </div>
+
+        <div class="battle-toggle">
+
+            <button id="battleModeBtn">
+
+                ⚔ Battle Mode
+
+            </button>
+
+        </div>
+
+        <div
+            class="battle-container hidden">
+
+            <input
+                type="text"
+                id="userOne"
+                placeholder="First Username">
+
+            <input
+                type="text"
+                id="userTwo"
+                placeholder="Second Username">
+
+            <button id="battleBtn">
+
+                Compare
+
+            </button>
+
+        </div>
+
+        <div
+            id="loading"
+            class="hidden">
+
+            <div class="spinner"></div>
+
+            <p>
+
+                Loading...
+
+            </p>
+
+        </div>
+
+        <div
+            id="errorBox"
+            class="hidden">
+
+            <i class="fa-solid fa-circle-xmark"></i>
+
+            <h2>
+
+                User Not Found
+
+            </h2>
+
+            <p>
+
+                Please enter a valid GitHub username.
+
+            </p>
+
+        </div>
+
+        <div
+            id="profileCard"
+            class="hidden">
+
+            <div class="top-section">
+
+                <img
+                    id="avatar"
+                    src=""
+                    alt="Avatar">
+
+                <div>
+
+                    <h2 id="name">
+                        Name
+                    </h2>
+
+                    <a
+                        id="username"
+                        href="#"
+                        target="_blank">
+
+                        @username
+
+                    </a>
+
+                    <p id="joined">
+
+                        Joined
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="bio">
+
+                <p id="bio">
+
+                    Bio
+
+                </p>
+
+            </div>
+
+
+
+            <div class="stats">
+
+                <div>
+
+                    <p>Repos</p>
+
+                    <h3 id="repos">
+                        0
+                    </h3>
+
+                </div>
+
+                <div>
+
+                    <p>Followers</p>
+
+                    <h3 id="followers">
+                        0
+                    </h3>
+
+                </div>
+
+                <div>
+
+                    <p>Following</p>
+
+                    <h3 id="following">
+                        0
+                    </h3>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="links">
+
+                <div>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span id="location">
+
+                        Not Available
+
+                    </span>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-link"></i>
+
+                    <a
+                        id="website"
+                        href="#"
+                        target="_blank">
+
+                        Portfolio
+
+                    </a>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-brands fa-twitter"></i>
+
+                    <span id="twitter">
+
+                        Not Available
+
+                    </span>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-building"></i>
+
+                    <span id="company">
+
+                        Not Available
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <section
+            id="repoSection"
+            class="hidden">
+
+            <h2>
+
+                Latest Repositories
+
+            </h2>
+
+            <div id="repoList">
+
+            </div>
+
+        </section>
+
+        <section
+            id="battleResult"
+            class="hidden">
+
+            <h2>
+
+                Battle Result
+
+            </h2>
+
+            <div
+                id="winnerCard">
+
+            </div>
+
+            <div
+                id="loserCard">
+
+            </div>
+
+        </section>
+
+    </div>
+ <script src="script.js"></script>
+
+</body>
+
+</html>
