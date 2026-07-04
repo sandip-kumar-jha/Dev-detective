@@ -95,7 +95,8 @@ The user with the higher total stars is declared the Winner.
 ---
 
 ## 📸 Screenshots
-![Uploading image.png…]()
+![Uploading Screenshot 2026-07-04 092737.png…]()
+
 
 
 Example:
