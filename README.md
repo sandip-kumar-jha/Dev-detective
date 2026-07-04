@@ -8,9 +8,9 @@ A modern GitHub Profile Finder built using **HTML, CSS, and Vanilla JavaScript**
 
 ## 🚀 Live Demo
 
-**Live Website:** Add your Vercel/Netlify link here
+**Live Website:** papaya-lily-a7a817.netlify.app
 
-**GitHub Repository:** Add your GitHub repository link here
+**GitHub Repository:** https://github.com/sandip-kumar-jha/Dev-detective
 
 ---
 
